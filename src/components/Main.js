@@ -13,10 +13,10 @@ export default function Main() {
             <h3>ReadyVet®</h3>
             <nav>
                 <ul>
-                    <li>About Us</li>
-                    <li>Contact Us</li>
-                    <li><button>Log In</button></li>
-                    <li><button>Sign Up</button></li>
+                    <li>Quizzes</li>
+                    <li>Stats</li>
+                    <li>Menu</li>
+                    <li>Exit</li>
                 </ul>
 
                 <div class="hamburger-container">
@@ -32,12 +32,12 @@ export default function Main() {
         <div className='container'>
             <h1 className='title text-light'>Vet Question Bank 1</h1>
 
-            <ol>
+            <ul>
                 <li>10 Vet Questions in this Question Bank</li>
                 <li>Multiple Choice Question</li>
                 <li>View Results and Stats at the end</li>
                 <li>Press 'Start Quiz' to begin</li>
-            </ol>
+            </ul>
 
             <form id='form'>
                 <input ref={inputRef} type="text" placeholder='Username*' />
